@@ -9,17 +9,49 @@
     <meta name="author" content="">
 
     <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
-
-    
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
   </head>
 
   <body id="page-top" style="font-family: 'Josefin Sans', sans-serif;">
 
-    <%= render "shared/nav"%>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#titre">Égout Québec</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Carte interactive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Débordement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#propo">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#next">À venir</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <header class="bg-primary text-white">
       <div class="container text-center">
@@ -46,19 +78,17 @@
       </div>
     </header>
 
-    <section id="map" class="text-white">
-        <div class="container">
-            <div class="col-lg-8 mx-auto">
-                
-            
-      <div class="map">
-        
-                  <%= render "shared/map"%>
+    <section id="about" class="text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1 id="carte_text">CARTE INTERACTIVE</h1>
+            <div class="row">
+                  <iframe scrolling="no" marginheight="0" marginwidth="0" style="padding-left:12px;padding-right:12px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178784.8186872688!2d-73.71205035000006!3d45.56012565000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C+QC!5e0!3m2!1sen!2sca!4v1438487104208" width="100%" height="400px" frameborder="0"></iframe>
 
-
-            </div>
-      </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="services" class="text-white">
@@ -94,17 +124,17 @@
           <div class="col-lg-9 mx-auto">
             <h1 id="propos_text">À PROPOS</h1>
                 <div class="column icone_img">
-                    <%= link_to image_tag("icone1.png", alt: "Icone 1") %>
+                    <img src="IMG/icone1.png"/>
                     <h4 class="sous_titre">COMMENT ÇA FONCTIONNE?</h4>
                     <h5 class="sous_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum euismod suscipit. Sed</h5>
                 </div>
                 <div class="column icone_img">
-                    <%= link_to image_tag("icone2.png", alt: "Icone 2") %>
+                    <img src="IMG/icone2.png"/>
                     <h4 class="sous_titre"s>DANS LA VILLE</h4>
                     <h5 class="sous_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum euismod suscipit. Sed</h5>
                 </div>
                 <div class="column icone_img">
-                    <%= link_to image_tag("icone3.png", alt: "Icone 3") %>
+                    <img src="IMG/icone3.png"/>
                     <h4 class="sous_titre">NOS TECHNOLOGIES</h4>
                     <h5 class="sous_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum euismod suscipit. Sed</h5>
                 </div>
@@ -119,15 +149,15 @@
           <div class="col-lg-8 mx-auto">
             <h2 id="propos_text">À VENIR</h2>
             <div class="column ville_img">
-                <%= link_to image_tag("ville 1.png", alt: "ville 1") %>
+                <img src="IMG/ville 1.png"/>
                 <h4 class="sous_ville">LAVAL</h4>
             </div>
             <div class="column ville_img">
-                <%= link_to image_tag("ville 2.png", alt: "ville 2") %>
+                <img src="IMG/ville 2.png" />
                 <h4 class="sous_ville">TROIS-RIVIÈRES</h4>
             </div>
             <div class="column ville_img">
-                <%= link_to image_tag("ville3.png", alt: "ville 3") %>
+                <img src="IMG/ville3.png"/>
                 <h4 class="sous_ville">QUÉBEC</h4>
             </div>
           </div>
@@ -142,16 +172,16 @@
             <h2 id="propos_text">RECEVER NOS ALERTES</h2>
             <div class="col-sm-12">
               <br>
-                <div class="single">
+            	<div class="single">
                 <form action="index.html">
-                <div class="input-group">
+              	<div class="input-group">
                        <input class="form-control" placeholder="Enter your email" type="email">
                        <span class="input-group-btn">
                           <button class="btn btn-theme" type="submit">Subscribe</button>
                        </span>
                  </form>
                 </div>
-                </div>
+            	</div>
             </div>
           </div>
         </div>
@@ -160,33 +190,33 @@
 
     <!-- Footer -->
     <footer class="py-5 text-white">
-        
-        <div class="row pb-3">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-
-                <div class="mb-5 flex-center">
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/ets.png", alt: "ets") %>
+      <div class="container col-lg-12">
+        <p class="m-0 text-white" style="float:left">TOUT DROITS RÉSERVÉS &copy;</p>
+          <div class="container col-md-1">
+              <img src="IMG/Footer/ets.png"/>
            </div>
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/cedille.png", alt: "cedille") %>
+          <div class="container col-md-1">
+            <img src="IMG/Footer/cedille.png"/>
           </div>
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/hackqc.png", alt: "hackqc") %>
+          <div class="container col-md-1">
+            <img src="IMG//Footer/hackqc.png"/>
           </div>
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/montreal.png", alt: "montreal") %>
+          <div class="container col-md-1">
+            <img src="IMG/Footer/montreal.png"/>
           </div>
-            </div>
-
-        </div>
-  </div>
+      </div>
       <!-- /.container -->
     </footer>
 
-   
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 
   </body>
 

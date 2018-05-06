@@ -1,0 +1,153 @@
+ID_SOMAEU,siteNo,nom,secteur,region,lon,lat
+MTL-1,0642-01D,0642-01D Station d'épur. CUM - Cdte de dériv. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4646540034421,45.6653806815436
+MTL-2,0672-01D,0672-01D T.-P. 101è avenue,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5312939846466,45.6827137586788
+MTL-3,0672-02D,0672-02D S.P. Riv.-des-Prairies - T.P. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5217279834598,45.6942020102478
+MTL-4,0672-03D,0672-03D Régul. 89è avenue (Montréal),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5408183772808,45.6739282855525
+MTL-5,3230-01D,3230-01D Ouv. de régul. St-Jean-Baptiste Nord (RdP),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5507192572704,45.6713753198126
+MTL-6,3240-01D,3240-01D S.P. 71è avenue - T.-P. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5605897644218,45.6645825624067
+MTL-7,3240-02D,3240-02D S.P. 71è Av. - Trop-plein d'orage pompé,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5605897644218,45.6645825624067
+MTL-8,3240-03D,3240-03D S.P. 71è Av. - Trop-plein d'orage gravitaire,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5605897644218,45.6645825624067
+MTL-9,3240-04D,3240-04D Trop-plein Rodolphe-Forget-Gouin,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5835181183469,45.6536952366673
+MTL-10,3240-05D,3240-05D Trop-plein d'urgence Bassin de rétention Perras,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.7545436720545,45.5118974935891
+MTL-11,3250-01D,3250-01D Ouv. de régulation Avenue 54,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5752923782975,45.6583648949071
+MTL-12,3250-02D,3250-02D Trop-plein Riv-des-Prairies/Henri-Bourassa,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5752953266139,45.6583626434178
+MTL-13,3260-01D,3260-01D Ouv. de régul. Rodolphe-Forget (41è Av.),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5834425736506,45.6536282553372
+MTL-14,3270-01D,3270-01D Ouv. de régulation Avenue 25,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5982810544546,45.6441874203693
+MTL-15,3275-01D,3275-01D S.P. Av 13. - Trop-plein d'orage gravitaire,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.6075624883131,45.6373671418393
+MTL-16,3275-02D,3275-02D S.P. Av 13. - Trop-plein d'orage pompé,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.6075624883131,45.6373671418393
+MTL-17,3280-01D,3280-01D Ouv. de régulation Marc-Aurèle-Fortin,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.6085742634312,45.636423801295
+MTL-18,3280-02D,3280-02D Trop-plein Renaude-Lapointe/Henri-Bourassa,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.5999230493006,45.613542608717
+MTL-19,3290-01D,3290-01D Ouv. de régulation Langelier,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6248024365849,45.6264226124973
+MTL-20,3305-01D,3305-01D Racc. Gouin-Langelier,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6248024365849,45.6264226124973
+MTL-21,3305-02D,3305-02D Racc. Gouin-Rolland,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6291135066657,45.6239442960817
+MTL-22,3305-03D,3305-03D Ouv. Lacordaire - Trop-plein d'orage,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6332257372849,45.6199158303584
+MTL-23,3305-04D,3305-04D Ouv. Lacordaire - Trop-plein d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6332257372849,45.6199158303584
+MTL-24,3305-05D,3305-05D Dériv. Gouin-Lanthier,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6354042851996,45.6167313984095
+MTL-25,3305-06D,3305-06D Dériv. Gouin-Salk,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6367333111471,45.6139291091707
+MTL-26,3305-07D,3305-07D Dériv. Gouin-Brunet,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6379883023324,45.6117325653659
+MTL-27,3310-01D,3310-01D Ouv. de régulation Lanthier,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6353714694581,45.616788666175
+MTL-30,3340-01D,3340-01D Ouv. d'Interc. Plaza,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6481376309899,45.5950361591248
+MTL-34,3350-01D,3350-01D Ouv. de régulation Lausanne,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6513643947496,45.5910682732204
+MTL-35,3350-02D,3350-02D Ouv. de racc. Étienne-Brûlé,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6592425423213,45.5793552728127
+MTL-36,3350-03D,3350-03D Émissaire 07,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6592425423213,45.5793552728127
+MTL-37,3350-04D,3350-04D Trop-plein Du Pressoir,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6604167257454,45.5761770456683
+MTL-38,3350-05D,3350-05D Trop-plein Barrage Simon-Sicard,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6624315092284,45.5708140797228
+MTL-39,3350-06D,3350-06D Trop-plein St-Denis,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6742298885238,45.5553544700881
+MTL-40,3350-07D,3350-07D Trop-plein Salaberry,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6919474022914,45.5476057553905
+MTL-41,3350-08D,3350-08D Trop-plein Bohlé,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7097957292012,45.5417015873819
+MTL-41,3350-08D,3350-08D Trop-plein Bohlé,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7098635964445,45.541666908979
+MTL-31,3350-09D,3350-09D S.P. Lavigne - Trop-plein d'orage,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7137900106765,45.5376927852086
+MTL-31,3350-09D,3350-09D S.P. Lavigne - Trop-plein d'orage,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7137569531746,45.5377207420386
+MTL-33,3350-11D,3350-11D Trop-plein Notre-Dame-de-Grâce,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7137916684185,45.5376909824308
+MTL-33,3350-11D,3350-11D Trop-plein Notre-Dame-de-Grâce,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7137557728281,45.5377133655786
+MTL-42,3370-01D,3370-01D Ouv. de régulation Curotte,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6634972479334,45.5653527338834
+MTL-43,3380-01D,3380-01D Ouv. de régulation Auteuil,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6748358047897,45.5548013156888
+MTL-44,3390-01D,3390-01D Ouv. de régulation St-Laurent,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6769762222008,45.5521561938143
+MTL-45,3400-01D,3400-01D Ouv. de régulation Meilleur,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6820832251513,45.5495973139504
+MTL-45,3400-01D,3400-01D Ouv. de régulation Meilleur,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.6820347453996,45.5496156578794
+MTL-47,3410-02D,3410-02D Trop-plein Décarie-Raimbault,OMAEU de Montréal (Station Jean-R.-Marcotte),ST-LAURENT,-73.7098635964445,45.541666908979
+MTL-49,3450-01D,3450-01D S.P. Saraguay - Trop-plein d'orage pompé,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7545436720545,45.5118974935891
+MTL-51,3460-01D,3460-01D Ouv. de régulation Pitfield,OMAEU de Montréal (Station Jean-R.-Marcotte),PIERREFONDS,-73.7591975471947,45.5070592852918
+MTL-52,3480-01D,3480-01D Lot 28 - Trop-plein d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),DOLLARD-DES-ORMEAUX,-73.7831758080819,45.5095669109522
+MTL-53,3480-02D,3480-02D T.-P. S.P. Spring Garden no 1,OMAEU de Montréal (Station Jean-R.-Marcotte),DOLLARD-DES-ORMEAUX,-73.7826230987575,45.5097534672873
+MTL-54,3480-03D,3480-03D T.-P. S.P. Spring Garden no 2,OMAEU de Montréal (Station Jean-R.-Marcotte),DOLLARD-DES-ORMEAUX,-73.7826230987575,45.5097534672873
+DDO-55,3480-04D,3480-04D T.-P. S.P. Spring Garden no 3,Secteur DDO,DOLLARD-DES-ORMEAUX,-73.7826230987575,45.5097534672873
+DDO-56,3480-05D,3480-05D T.-P. S.P. Spring Garden no 4,Secteur DDO,DOLLARD-DES-ORMEAUX,-73.7826230987575,45.5097534672873
+MTL-57,3490-01D,3490-01D Trop-plein 8è rue/Prince-Edward,OMAEU de Montréal (Station Jean-R.-Marcotte),ROXBORO,-73.8132755014038,45.5156329879445
+MTL-58,3490-02D,3490-02D Trop-plein 9è rue/13è avenue,OMAEU de Montréal (Station Jean-R.-Marcotte),ROXBORO,-73.8132755014038,45.5156329879445
+MTL-59,3500-01D,3500-01D Ch. de vannes Desjardins - T.-P. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),PIERREFONDS,-73.8488259260633,45.5129082714788
+MTL-60,3500-02D,3500-02D Trop-plein Richer/Allard,OMAEU de Montréal (Station Jean-R.-Marcotte),PIERREFONDS,-73.8268196286409,45.5166803390219
+MTL-61,3500-03D,3500-03D S.P. Fléming/Léger (Pierrefonds),OMAEU de Montréal (Station Jean-R.-Marcotte),PIERREFONDS,-73.8488259260633,45.5129082714788
+MTL-62,3520-01D,3520-01D Dériv. Bourget,OMAEU de Montréal (Station Jean-R.-Marcotte),ILE-BIZARD,-73.8633052621297,45.4878088789072
+MTL-63,3530-01D,3530-01D S.P. Marcellin,OMAEU de Montréal (Station Jean-R.-Marcotte),ILE-BIZARD,-73.8620760012134,45.5035060696381
+MTL-64,3540-01D,3540-01D Dériv. St-Martin,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-GENEVIÈVE,-73.8746706016104,45.4791738633407
+MTL-65,3540-02D,3540-02D T.-P. Lavigne/Gatien-Claude,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-GENEVIÈVE,-73.86689653532,45.4870785135434
+MTL-66,3560-01D,3560-01D Usine de filt. Pierrefonds - T.-P. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),PIERREFONDS,-73.8936103451308,45.4669939854741
+SAB-67,3580-01D,3580-01D P.P. Terrasse Maxime (Marc-Antoine),OMAEU de Sainte-Anne-de-Bellevue,STE-ANNE-DE-BELLEVUE,-73.9572464221934,45.4083573661028
+MTL-68,3750-01D,3750-01D S.P. Hénault,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-NORD,-73.6399262225254,45.608995186739
+MTL-69,3762-01D,3762-01D S.P. Ile-de-la-Visitation - T.-P. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.661514141332,45.576523734148
+MTL-71,3767-01D,3767-01D S.P. de St-Réal,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7021495016805,45.5459062734461
+MTL-72,3768-01D,3768-01D S.P. Bois-de-Boulogne,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.7026554580828,45.5452949279756
+MTL-73,3780-01D,3780-01D S.P. Du Pont,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-GENEVIÈVE,-73.8690848394043,45.4858357054069
+MTL-74,3781-01D,3781-01D S.P. Beaulieu,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-GENEVIÈVE,-73.877628639521,45.4727138349402
+MTL-75,3782-01D,3782-01D S.P. St-Jean-Baptiste,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-GENEVIÈVE,-73.8782085492568,45.4726410982676
+MTL-76,3790-01D,3790-01D S.P. Ste-Anne-de-Bell. - Trop-plein Kent,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-ANNE-DE-BELLEVUE,-73.9464959226715,45.4024131354361
+MTL-77,3790-02D,3790-02D S.P. Ste-Anne-de-Bell. - Déviat. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),STE-ANNE-DE-BELLEVUE,-73.9460289972006,45.4022454262252
+MTL-78,4210-01D,4210-01D Dériv. Henri-Bourassa,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4897191146864,45.6820786236215
+MTL-79,4230-01D,4230-01D T.-P. La Gauchetière/40è avenue,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4889208504608,45.6588650819734
+MTL-80,4230-02D,4230-02D Dériv. Avenue 52 (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4912124446509,45.6691737711265
+MTL-81,4230-03D,4230-03D Dériv. 54è avenue (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4910713315822,45.6703803243272
+MTL-82,4230-04D,4230-04D Dériv. Avenue 55 (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4910708165109,45.6711980775102
+MTL-83,4230-05D,4230-05D Dériv. 57è avenue (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4907404605326,45.6726804085937
+MTL-84,4230-06D,4230-06D Conduite en rive du fleuve - T.-P. d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4897191146864,45.6820786236215
+MTL-85,4230-07D,4230-07D Trop-plein Avenue 81 (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4853605974936,45.688457471002
+MTL-86,4230-08D,4230-08D Trop-plein 93è avenue/Bellerive (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4796840546041,45.6973535035412
+MTL-87,4230-09D,4230-09D SP 96è AVE,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4799457643984,45.6989659951695
+MTL-88,4240-01D,4240-01D Ouv. de régulation Avenue 24 (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.4865379242573,45.6498598865326
+MTL-89,4240-02D,4240-02D Émissaire d'urgence Avenue 24 (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.4864819688394,45.6499299758872
+MTL-90,4250-01D,4250-01D Ouv. de régul. St-Jean-Baptiste Sud (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.4871393132623,45.6395517008487
+MTL-91,4260-01D,4260-01D Ouv. de régulation Laurendeau,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-EST,-73.4939780637115,45.6301899762762
+MTL-92,4265-01D,4265-01D Ouv. de régulation Richard,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL-EST,-73.4968462010833,45.6259606522636
+MTL-93,4270-01D,4270-01D Ouv. de régulation Gonthier - Dériv. Gonthier,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5069565791895,45.6109083052319
+MTL-94,4270-02D,4270-02D Ouv. de régulation Gonthier - Dériv. Georges V,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5069565791895,45.6109083052319
+MTL-95,4280-01D,4280-01D Ouv. de régulation Parc Clément-Jetté,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.502646846061,45.6014149546458
+MTL-159,4280-02D,4280-02D TP coll. Mercier,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.509089818655,45.5986499031307
+MTL-96,4290-01D,4290-01D Ouv. de régulation De Boucherville,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5062752276393,45.5840967072594
+MTL-97,4300-01D,4300-01D Ouv. de régulation Clarence-Gagnon,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5174008899587,45.5690770984901
+MTL-98,4310-01D,4310-01D Ouv. de régulation Dickson,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5198587838683,45.5639868823771
+MTL-99,4315-01D,4315-01D Ouv. d'interc. Lot 13,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.521135534143,45.5624587360008
+MTL-100,4317-01D,4317-01D Ouv. d'interc. Viau,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5230332341237,45.5540459983047
+MTL-101,4320-01D,4320-01D Ouv. de régulation De La Salle,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5280671345287,45.5479736827068
+MTL-102,4330-01D,4330-01D Joliette - Dériv. Nicolet,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5349543745453,45.5407874883955
+MTL-103,4330-02D,4330-02D Joliette - Dériv. Dézéry,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5377255052149,45.5380709879463
+MTL-104,4340-01D,4340-01D Parc Bellerive - Dériv. Mont-Royal,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5432169784026,45.525544550553
+MTL-105,4340-02D,4340-02D Parc Bellerive - Dériv. Parc Lafontaine,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5432169784026,45.525544550553
+MTL-106,4340-03D,4340-03D Ouv. de raccordement Papineau,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5447537454147,45.5194803873192
+MTL-107,4350-01D,4350-01D Ouv. de régulation McGill,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5523988111171,45.5000009566767
+MTL-108,4360-01D,4360-01D Ouv. de régulation Riverside,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL ,-73.5495643527454,45.4916346607152
+MTL-109,4370-01D,4370-01D Ouv. de régulation St-Pierre - Bas-niveau,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.559367856796,45.4711692775517
+MTL-110,4370-02D,4370-02D Ouv. de régulation St-Pierre - Haut-niveau,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.559367856796,45.4711692775517
+MTL-111,4370-03D,4370-03D Station de pompage Avenue 48 - pompe #3,OMAEU de Montréal (Station Jean-R.-Marcotte),LACHINE,-73.7093856591804,45.4359968749383
+MTL-112,4370-04D,4370-04D Station de pompage Avenue 48 - pompe #4,OMAEU de Montréal (Station Jean-R.-Marcotte),LACHINE,-73.7093856591804,45.4359968749383
+MTL-113,4370-05D,4370-05D Trop-plein Rockfield,OMAEU de Montréal (Station Jean-R.-Marcotte),LACHINE,-73.6531427533496,45.4373961335875
+MTL-114,4380-01D,4380-01D Ouv. de régulation Rhéaume,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5563534431022,45.4696629288373
+MTL-115,4390-01D,4390-01D Ouv. d'interc. Ile-des-Soeurs,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5569192644934,45.4616933160895
+MTL-116,4400-01D,4400-01D Ouv. de régulation Avenue 1,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5602814216596,45.4585917885948
+MTL-117,4400-02D,4400-02D Trop-plein Beatty/Av. Verdun,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5665702309477,45.4500299062245
+MTL-118,4420-01D,4420-01D Ouv. de régulation Stephens,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5749534423804,45.4424940313537
+MTL-119,4420-02D,4420-02D Dériv. Stephens I,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5749534423804,45.4424940313537
+MTL-121,4420-04D,4420-04D Trop-plein Richard/Boul. Lasalle,OMAEU de Montréal (Station Jean-R.-Marcotte),VERDUN,-73.5687002969263,45.4479486380386
+MTL-122,4430-01D,4430-01D Ouv. de régulation Alepin,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.5876671516922,45.4322623763532
+MTL-123,4430-02D,4430-02D Trop-plein Sénécal/Boul. Lasalle,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.5855344552147,45.4341195823937
+MTL-124,4430-03D,4430-03D Dérivation Canal de l'Aqueduc,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.6290682136038,45.4145443541486
+MTL-124,4430-03D,4430-03D Dérivation Canal de l'Aqueduc,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.6303134971214,45.414746127964
+MTL-125,4430-04D,4430-04D Dérivation Orchard,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.6485886095848,45.419219950603
+MTL-125,4430-04D,4430-04D Dérivation Orchard,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.648917086326,45.4195953028221
+MTL-126,4430-05D,4430-05D Déversoir Highlands,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.6573580090809,45.4237739855284
+MTL-127,4430-06D,4430-06D S.P. Lyette,OMAEU de Montréal (Station Jean-R.-Marcotte),LASALLE,-73.6654135569842,45.4281143041047
+MTL-130,4520-01D,4520-01D S.P. St-Charles,OMAEU de Montréal (Station Jean-R.-Marcotte),DORVAL,-73.7279204940025,45.4369874981669
+MTL-132,4530-02D,4530-02D S.P. no 4 (Dorval) (Bord-du-Lac),OMAEU de Montréal (Station Jean-R.-Marcotte),DORVAL,-73.7710856384275,45.4405565150568
+MTL-133,4560-01D,4560-01D Trop-plein Chester,OMAEU de Montréal (Station Jean-R.-Marcotte),POINTE-CLAIRE,-73.7850808739822,45.4476915683232
+MTL-134,4560-02D,4560-02D Trop-plein regard 1254,OMAEU de Montréal (Station Jean-R.-Marcotte),POINTE-CLAIRE,-73.7850808739822,45.4476915683232
+MTL-135,4560-03D,4560-03D Trop-plein Vincennes,OMAEU de Montréal (Station Jean-R.-Marcotte),POINTE-CLAIRE,-73.7850808739822,45.4476915683232
+MTL-137,4600-01D,4600-01D Dériv. Victoria I,OMAEU de Montréal (Station Jean-R.-Marcotte),POINTE-CLAIRE,-73.8212945314538,45.4292577834165
+PTC-139,4600-03D,4600-03D Trop-plein Crewe,OMAEU de Pointe-Claire,POINTE-CLAIRE,-73.8182873995221,45.431867682303
+MTL-140,4610-01D,4610-01D S.P. no 1,OMAEU de Montréal (Station Jean-R.-Marcotte),BEACONSFIELD,-73.8454166099615,45.4297926270275
+BCF-141,4610-06D,4610-06D S.P. no 6  (Amovible),OMAEU de Beaconsfield,BEACONSFIELD,-73.8499297003533,45.4282975489121
+BCF-142,4620-01D,4620-01D S.P. no 7,OMAEU de Beaconsfield,BEACONSFIELD,-73.8845495508252,45.4153120908585
+BCF-143,4620-02D,4620-02D S.P. no 9,OMAEU de Beaconsfield,BEACONSFIELD,-73.8876834027278,45.4146923838702
+BCF-144,4620-03D,4620-03D S.P. no 10 (Amovible),OMAEU de Beaconsfield,BEACONSFIELD,-73.8876834027278,45.4146923838702
+BCF-145,4620-04D,4620-04D Trop-plein de la Vanne B (anc. Woodland-Lakesh),OMAEU de Beaconsfield,BEACONSFIELD,-73.8839623033296,45.4154397764617
+BCF-146,4620-05D,4620-05D S.P. no 8  (Amovible),OMAEU de Beaconsfield,BEACONSFIELD,-73.8905764043247,45.4259599782438
+BCF-147,4620-06D,4620-06D S.P. no 11 (Amovible),OMAEU de Beaconsfield,BEACONSFIELD,-73.869126808962,45.4212023228433
+MTL-148,4710-01D,4710-01D S.P. 134è avenue (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4966935816307,45.6980396591723
+MTL-149,4710-02D,4710-02D S.P. 134è avenue - Émissaire d'urgence,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4966935816307,45.6980396591723
+MTL-150,4720-01D,4720-01D S.P. Delphis-Delorme (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL (R-D-P),-73.4893511699193,45.7004911983981
+MTL-153,4770-01D,4770-01D S.P. Avenue 35 (PAT),OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL,-73.4885133896309,45.6572014572807
+MTL-154,4790-01D,4790-01D S.P. Cité du Havre,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL,-73.5403481312554,45.4897238676333
+MTL-155,4795-01D,4795-01D S.P. Moffat,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL,-73.5668496183518,45.4496348882409
+MTL-155,4795-01D,4795-01D S.P. Moffat,OMAEU de Montréal (Station Jean-R.-Marcotte),MONTRÉAL,-73.5668496183518,45.4496348882409
+MTL-157,4630-01D,4630-01D TP St-Régis,OMAEU de Montréal (Station Jean-R.-Marcotte),DORVAL,-73.7703273154061,45.4916445406445
+MTL-160,4310-02D,4310-02D TP Bombardier,OMAEU de Montréal (Station Jean-R.-Marcotte),ANJOU,-73.6211801929942,45.6292752609957
+MTL-161,4530-03D,4530-03D S.P. Thorncrest,OMAEU de Montréal (Station Jean-R.-Marcotte),DORVAL,-73.7581883469912,45.4390110549523
+BCF-164,4620-07D,4620-07D Woodland,OMAEU de Beaconsfield,BEACONSFIELD,-73.8823026266441,45.4158148508797

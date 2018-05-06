@@ -22,6 +22,8 @@ gem 'jquery-rails'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap'
 gem 'leaflet-rails', '1.3.1'
+gem 'rgeo'
+gem 'rgeo-geojson'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
