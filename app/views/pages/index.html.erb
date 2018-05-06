@@ -46,17 +46,13 @@
       </div>
     </header>
 
+
     <section id="map" class="text-white">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                
-            
-      <div class="map">
-        
-                  <%= render "shared/map"%>
-
-
-            </div>
+                <div class="map">
+                    <%= render "shared/map"%>
+                </div>
       </div>
         </div>
     </section>
@@ -160,32 +156,33 @@
 
     <!-- Footer -->
     <footer class="py-5 text-white">
-        
-        <div class="row pb-3">
+      <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4">
+<p class="m-0 text-white" ">TOUT DROITS RÉSERVÉS &copy;</p>
 
-            <!--Grid column-->
-            <div class="col-md-12">
-
-                <div class="mb-5 flex-center">
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/ets.png", alt: "ets") %>
-           </div>
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/cedille.png", alt: "cedille") %>
-          </div>
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/hackqc.png", alt: "hackqc") %>
-          </div>
-          <div class="col-md-2 mb-3">
-            <%= link_to image_tag("Footer/montreal.png", alt: "montreal") %>
-          </div>
             </div>
+            <div class="col-10 col-md-8">
+    <ul class="nav justify-content-end"">
+      <li class="container col-lg-2"><%=image_tag("Footer/ETS.png", alt: "ets") %></li>
+      <li class="container col-lg-1"><%=image_tag("Footer/cedille.png", alt: "cedille") %></li>
+      <li class="container col-lg-1"><%=image_tag("Footer/hackqc.png", alt: "hackqc") %></li>
+      <li class="container col-lg-2"><%=image_tag("Footer/montreal.png", alt: "montreal") %></li>
+    </ul>    
 
+            </div>
         </div>
-  </div>
+  
+                  
+      </div>
+
       <!-- /.container -->
     </footer>
 
+     
+
+ <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
    
 
   </body>
