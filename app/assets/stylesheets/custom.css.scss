@@ -13,7 +13,12 @@ height: 500px;
 }
 .bg-primary {
     background-color: #959595 !important;
-    background-image: url("../IMG/map1.png")
+
+    background-image: image-url("map1.png");
+    background-size:cover;
+background-position: center center;
+min-height:600px;
+width:100%;
 }
 
 p{
@@ -32,7 +37,11 @@ nav{
 
 #services{
   background-color: #959595 !important;
-  background-image: url("../IMG/map2.png")
+  background-position: center center;
+  background-image: image-url("map2.png");
+  background-size:cover;
+    min-height:600px;
+  width:100%;
 }
 
 #propo{
