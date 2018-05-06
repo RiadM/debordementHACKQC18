@@ -2,7 +2,7 @@
   <a href= "https://www.égoutQuébec.com"><img src = "app/assets/images/logo_README.png" /></a>
 </div>
 <h1>Mission</h1>
-<p>ÉGOUTS QUEBEC permet de prédire le débordement des égouts et d’en avertir les amateurs d’activités aquatiques. Ainsi les personnes désirant aller faire des activités aquatiques pourrons éviter les zones polluées par les déversements d’eau usée. De plus, des conseils seront dispensés aux gens des différents quartier, de façon à réduire les risques de débordement.  ÉGOUTS QUEBEC utilise une technologie basée sur une intelligence artificielle. Celle-ci peut déterminer lorsque les égouts déborderont. Ses analyses et calculs sont basés sur des données disponibles sur le site de <a href ="https://www.donneesquebec.ca/fr/"> donnée Québec</a> .Finalement, les différentes villes auront avantage à utiliser ÉGOUTS QUEBEC. Grâce aux prédictions et aux analyses de la plateforme, il sera possible de concentrer les ressources de la ville aux endroits les plus problématique.</p>
+<p>ÉGOUT QUEBEC permet de prédire le débordement des égouts et d’en avertir les amateurs d’activités aquatiques. Ainsi les personnes désirant aller faire des activités aquatiques pourrons éviter les zones polluées par les déversements d’eau usée. De plus, des conseils seront dispensés aux gens des différents quartier, de façon à réduire les risques de débordement.  ÉGOUT QUEBEC utilise une technologie basée sur une intelligence artificielle. Celle-ci peut déterminer lorsque les égouts déborderont. Ses analyses et calculs sont basés sur des données disponibles sur le site de <a href ="https://www.donneesquebec.ca/fr/"> donnée Québec</a> .Finalement, les différentes villes auront avantage à utiliser ÉGOUT QUEBEC. Grâce aux prédictions et aux analyses de la plateforme, il sera possible de concentrer les ressources de la ville aux endroits les plus problématique.</p>
 <figure>
 <img src = "https://aquahacking.com/medias/content/images/photos/CSO_diagram_US_EPA.jpg" / >
     <figcaption>Exemple de débordement causé par la pluie</figcaption>
@@ -14,24 +14,23 @@
 </ol>
 <h1></h1>
 <h1>Technologie</h1>
-<p>Les analyses et prédictions de ÉGOUTS-QUEBEC permettent à la ville de mieux concentrer ses ressources sur les zones à risque. De cette façon le système est constamment amélioré et la fréquence de débordement tend à diminuer.</p>
+<p>Les analyses et prédictions de ÉGOUT QUEBEC permettent à la ville de mieux concentrer ses ressources sur les zones à risque. De cette façon le système est constamment amélioré et la fréquence de débordement tend à diminuer.</p>
 <h4>Intelligence Artificielle</h4>
 <p>Grâce au donnée généreusement fournis par la ville de Montréal, ÉGOUT QUÉBEC est en mesure d'apprendre des donnée pluviomètrique et des donnée de débordemnt pour prédire ou et quand les débordements auront lieu</p>
 <h4>Données Utilisé</h4>
-<p>ÉGOUT QUÉBEC utilise les données en libre accès disponible sur le portail https://www.donneesquebec.ca/fr/ Nous y avons pris les jeux de données suivants : Débordement (1) - Localisation des pluviomètres (2) - Liste des ouvrages de surverses (3)</p>
+<p>ÉGOUT QUÉBEC utilise les données en libre accès disponible sur le site de <a href="https://www.donneesquebec.ca/fr/">donnée Québec</a>. Nous y avons pris les jeux de données suivants : Débordement (1) - Localisation des pluviomètres (2) - Liste des ouvrages de surverses (3)</p>
 <p>
 <h4>Outils Informatique Utilisé</h4>
 <ul>
-  import pandas as pd
-import numpy as np
-import scipy as sp
-from sklearn.tree import DecisionTreeRegressor
-  <li>Pandas (Python)</li>  
-  <li>Numpy (Python)</li>  
-  <li>Scipy (Python)</li>
-  <li>Sklearn (Python)</li>
-  <li>Sklearn - DecisionTreeRegressor Package (Python)</li>
-  <li>MATLAB 2018a Machine Learning Regression Library (MATLAB)</li>
+  <li>Pandas (Python3.6)</li>  
+  <li>Numpy (Python3.6)</li>  
+  <li>Scipy (Python3.6)</li>
+  <li>Sklearn (Python3.6)</li>
+  <li>Sklearn - DecisionTreeRegressor Package (Python3.6)</li>
+  <li>MATLAB 2018a Machine Learning Regression Library (MATLAB2018a)</li>
+  <li>Rails (Ruby2.5.1.)</li>
+  <li>Leaflet.js (6) (javascript) </li> 
+  <li>Bootstrap (Web)</li>
 </ul>
 <h1>Références</h1>
 <ol>
@@ -40,6 +39,7 @@ from sklearn.tree import DecisionTreeRegressor
 <li><a href = "https://www.donneesquebec.ca/recherche/fr/dataset/vmtl-ouvrage-surverse">Donnée d'ouvrage de surverse Montréal 2017</a></li>
 <li><a href = "https://utilitieskingston.com/Wastewater/SewerOverflow/FAQ">Kingsont sewer overflow</a></li>
 <li><a href = "http://www.waterkeeper.ca/toronto-sewage/">Toronto sewer overflow</a></li>
+  <li><a href = "https://leafletjs.com/">Leaflet.js</la></li>
 <li><a href = "https://aquahacking.com/medias/content/images/photos/CSO_diagram_US_EPA.jpg">Image débordement</a></li>
 </ol>
 <i>Contactez-nous à egoutquebec@gmail.com</i>
