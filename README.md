@@ -1,5 +1,5 @@
 <div >
-  <a href= "https://www.égoutQuébec.com"><img src = "app/assets/images/logo_README.png" /></a>
+  <img src = "app/assets/images/logo_README.png" />
 </div>
 <h1>Mission</h1>
 <p>ÉGOUT QUEBEC permet de prédire le débordement des égouts et d’en avertir les amateurs d’activités aquatiques. Ainsi les personnes désirant aller faire des activités aquatiques pourrons éviter les zones polluées par les déversements d’eau usée. De plus, des conseils seront dispensés aux gens des différents quartier, de façon à réduire les risques de débordement.  ÉGOUT QUEBEC utilise une technologie basée sur une intelligence artificielle. Celle-ci peut déterminer lorsque les égouts déborderont. Ses analyses et calculs sont basés sur des données disponibles sur le site de <a href ="https://www.donneesquebec.ca/fr/"> donnée Québec</a> .Finalement, les différentes villes auront avantage à utiliser ÉGOUT QUEBEC. Grâce aux prédictions et aux analyses de la plateforme, il sera possible de concentrer les ressources de la ville aux endroits les plus problématique.</p>
