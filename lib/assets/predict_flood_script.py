@@ -8,6 +8,7 @@ Created on Sun May  6 00:38:07 2018
 import os
 import sys
 import pickle
+import sklearn
 
 
 number_params = len(sys.argv) - 1;
@@ -40,5 +41,7 @@ for i in set(idx):
         return_str = return_str + prediction
     index += 1;
 return_str = return_str + "]"
-    
-sys.exit(return_str)
+print(return_str)
+
+
+#sys.exit(return_str)

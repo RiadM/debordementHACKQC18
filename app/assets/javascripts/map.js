@@ -1,4 +1,3 @@
- <script >
  var locations = [
 ["1","0642-01D Station d'épur. CUM - Cdte de dériv. d'urgence",45.6653806815436,-73.4646540034421,1],
 ["2","0672-01D T.-P. 101è avenue",45.6827137586788,-73.5312939846466,2],
@@ -162,8 +161,7 @@
 ["161","4530-03D S.P. Thorncrest",45.4390110549523,-73.7581883469912,0],
 ["163","4620-07D Woodland",45.4158148508797,-73.8823026266441,0]];
 
-var debordement = ["#439bc8", "#290363","#87001d"];
-var data22juin = [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+var debordement = ["#439bc8", "#290363","#87001d"]
 
 var fillDebordement = [.5, .75, 1];
 
@@ -180,16 +178,10 @@ L.tileLayer(
 
 
     for (var i = 0; i < locations.length; i++) {
-        
-        var numCol = 0;
-        if(data22juin.length >= i){
-            numCol = data22juin[i];
-        }
-
       circle = new L.circle([locations[i][2],locations[i][3]],{
-        color: debordement[numCol],
-        fillColor: debordement[numCol],
-        fillOpacity: fillDebordement[1],
+        color: debordement[locations[i][4]],
+        fillColor: debordement[locations[i][4]],
+        fillOpacity: fillDebordement[locations[i][4]],
         radius: 500
       }).addTo(map);
     }
@@ -200,11 +192,10 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = ["Low", "Medium", "High"],
+        grades = ["Aucun deversement", "Déversement moins que 30 minutes", "Déversement sévere, plus que 1h"],
         labels = [];
 
     // loop through our density intervals and generate a label with a colored square for each interval
-    div.innerHTML += '<a style="font-size:1.3em; text-position:center;">22 June 2018</a><br><a style="font-size:1em;">Overflow Expected</a><br>' ;
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i style="background:' + debordement[i] + '"></i> ' +
@@ -216,4 +207,3 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
             
-            </script>

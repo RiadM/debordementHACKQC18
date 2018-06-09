@@ -1,192 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
+<%= render "shared/nav"%>
 
-  <head>
+<header class="bg-primary text-white">
+  <div class="container text-center">
+    <h1 id="titre">EGC-LABS</h1>
+    <div class="col-lg-8 mx-auto">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <p>EGC-Labs provide predictive information about sewage overflow and untreated sewage spills so government agency, municipalities, NGO and the general public can act accordingly. We also provide real-time information about occuring event when the information is available.</p>
 
-     <title>DebordementHACKQC18</title>
-    <%= csrf_meta_tags %>
+      <p>We use a predictive approach instead of only real-time so we can warn the different actors of an overflow and untreated sewage spills before and when it’s happening. The insight we accumulate by getting first hand domain knowledge and the data we consolidated give us an edge.</p>
+      
+      <p>The insight we provide</p>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
-
-    
-  </head>
-
-  <body id="page-top" style="font-family: 'Josefin Sans', sans-serif;">
-
-    <%= render "shared/nav"%>
-
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1 id="titre">ÉGOUT QUÉBEC</h1>
-        <div class="col-lg-8 mx-auto">
-
-          <p> ÉGOUT QUÉBEC permet de prédire le débordement des égouts et d’en avertir les amateurs d’activités aquatiques. 
-            Ainsi les personnes désirant aller faire des activités aquatiques pourront éviter les zones polluées par les déversements d’eaux usées. 
-            De plus, des conseils seront dispensés aux gens des différents quartiers, de façon à réduire les risques de débordement. </p>
-
-            <p>ÉGOUT QUÉBEC utilise une technologie basée sur une intelligence artificielle. Celle-ci peut déterminer lorsque 
-              les égouts déborderont. Ses analyses et calculs sont basés sur des données disponibles sur le portail
-              https://www.donneesquebec.ca/fr/ .Finalement, les différentes villes auront avantage à utiliser </p>
-              <p>
-              ÉGOUT QUÉBEC. Grâce aux prédictions et aux analyses de la plateforme,
-              il sera possible de concentrer les ressources de la ville aux endroits les plus problématiques.</p>
-
-           </div>
-      </div>
-    </header>
+       </div>
+  </div>
+</header>
 
 
-    <section id="premap" style="background-color: #686868 !important; padding-top: 20px;">
-      <h1 id="carte_text" class="text-white" style="padding-top: 100px;">CARTE INTERACTIVE</h1>
-    </section>
+<section id="premap"">
 
-    <section id="map" class="text-white">
-        <div class="container">
-            <div class="col-lg-8 mx-auto">
-                <div class="map">
-                    <%= render "shared/map"%>
+  <h1 id="carte_text" class="text-white">INTERACTIVE MAP</h1>
+  <h4 id="carte_text" class="text-white">MONTRÉAL</h4>
+
+</section>
+
+<section id="map" >
+   <%= render "shared/map"%>
+</section>
+
+
+<!-- services -->
+<%= render "shared/services" %>
+<!-- /.services -->
+
+
+<!-- propos -->
+<%= render "shared/propos" %>
+<!-- /.propos -->
+
+<section id="next" class="text-white">
+  <%= render "shared/next" %>
+</section>
+
+<section id="contact" class="text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 id="propos_text">RECEIVE OUR ALERTS</h2>
+        <div class="col-sm-12">
+          <br>
+            <div class="single">
+              <form action="#">
+
+                <div class="form-group">
+                  <input class="form-control" placeholder="Name" type="name">
                 </div>
-      </div>
-        </div>
-    </section>
-
-    <section id="services" class="text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 id="quoi_faire_text">QUE FAIRE EN CAS <br> DE DÉBORDEMENT?</h1>
-              <p> Évitez les contacts avec l’eau polluée puisqu’elle peut rendre les humains et les animaux malades. 
-                En effet, le niveau bactéries mesuré provenant des déchets des humains, animaux et matières résiduelles dans 
-                l’eau est plus élevé jusqu’à 48h après un débordement. Cette hausse de bactéries peut être la cause de différentes
-                infections telle que E Colis, trachoma ainsi que l’hépatite A pour n’en nommer que quelques-unes. 
-                De plus, les eaux peuvent avoir une odeur nauséabonde, ce qui rend les activités aquatiques bien moins agréables.</p>
-
-                <p>Les systèmes d’aqueduc et de filtration reçoivent l’eau à la fois de sources commerciales, domestique et industriels. 
-                  Lors des périodes de grandes pluies, il n’est pas rare que les systèmes soient débordés. 
-                  En limitant votre apport en eaux usées au système de filtration il est possible de réduire la gravité voire même éviter 
-                  un débordement. Parmi les activités à éviter, 
-                  les suivantes sont faciles à déplacer : utilisation de la douche, de la machine à laver et de la laveuse.</p>
-
-             
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="propo" class="text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 mx-auto">
-            <h1 id="propos_text">À PROPOS</h1>
-                <div class="column icone_img">
-                    <%= link_to image_tag("icone1.png", alt: "Icone 1") %>
-                    <h4 class="sous_titre">TECHNOLOGIE</h4>
-                    <h5 class="sous_text">Les prédictions d’ÉGOUT QUÉBEC sont déterminées grâce à une intelligence artificielle qui calcule 
-                      la probabilité que 
-                      l’égout déborde en fonction de sa position, son historique de débordement ainsi que la quantité de pluie attendue. Sed</h5>
+                <br>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Email" type="email">
                 </div>
-                <div class="column icone_img">
-                    <%= link_to image_tag("icone2.png", alt: "Icone 2") %>
-                    <h4 class="sous_titre"s>AVANTAGES</h4>
-                    <h5 class="sous_text">Les analyses et prédictions d’ÉGOUT QUÉBEC permettent à la ville de mieux concentrer ses 
-                      ressources sur les zones à risque.
-                      De cette façon, le système est constamment amélioré et la fréquence de débordement tend à diminuer.</h5>
-                </div>
-                <div class="column icone_img">
-                    <%= link_to image_tag("icone3.png", alt: "Icone 3") %>
-                    <h4 class="sous_titre">SOURCES</h4>
-                    <h5 class="sous_text">ÉGOUT QUÉBEC utilise les données en libre accès disponibles sur le
-                      portail https://www.donneesquebec.ca/fr/ nous y avons pris les jeux de données suivants 
-                      : Débordement - Liste des ouvrages de surverses - Localisation des pluviomètres</h5>
-                </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="next" class="text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 id="propos_text">À VENIR</h2>
-            <div class="column ville_img">
-                <%= link_to image_tag("ville 1.png", alt: "ville 1") %>
-                <h4 class="sous_ville">LAVAL</h4>
-            </div>
-            <div class="column ville_img">
-                <%= link_to image_tag("ville 2.png", alt: "ville 2") %>
-                <h4 class="sous_ville">TROIS-RIVIÈRES</h4>
-            </div>
-            <div class="column ville_img">
-                <%= link_to image_tag("ville3.png", alt: "ville 3") %>
-                <h4 class="sous_ville">QUÉBEC</h4>
+                <button type="submit" class="btn btn-primary" style="float:right;">Submit</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section id="contact" class="text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 id="propos_text">RECEVER NOS ALERTES</h2>
-            <div class="col-sm-12">
-              <br>
-                <div class="single">
-                <form action="index.html">
-                <div class="input-group">
-                       <input class="form-control" placeholder="Enter your email" type="email">
-                       <span class="input-group-btn">
-                          <button class="btn btn-theme" type="submit">Subscribe</button>
-                       </span>
-                 </form>
-                </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Footer -->
+<%= render "shared/footer"%>
+<!-- /.Footer -->
 
-    <!-- Footer -->
-    <footer class="py-5 text-white">
-      <div class="container">
-          <div class="row">
-            <div class="col-6 col-md-4">
-<p class="m-0 text-white" ">TOUT DROITS RÉSERVÉS &copy;</p>
-
-            </div>
-            <div class="col-10 col-md-8">
-    <ul class="nav justify-content-end"">
-      <li class="container col-lg-2"><%=image_tag("Footer/ETS.png", alt: "ets") %></li>
-      <li class="container col-lg-1"><%=image_tag("Footer/cedille.png", alt: "cedille") %></li>
-      <li class="container col-lg-1"><%=image_tag("Footer/hackqc.png", alt: "hackqc") %></li>
-      <li class="container col-lg-2"><%=image_tag("Footer/montreal.png", alt: "montreal") %></li>
-    </ul>    
-
-            </div>
-        </div>
-  
-                  
-      </div>
-
-      <!-- /.container -->
-    </footer>
-
-     
-
-
-  </body>
-
-</html>
+ 
