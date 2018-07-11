@@ -163,7 +163,7 @@
 ["163","4620-07D Woodland",45.4158148508797,-73.8823026266441,0]];
 
 var debordement = ["#439bc8", "#562999","#87001d"];
-var data22juin = [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+var data22juin = [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
 var fillDebordement = [.5, .75, 1];
 
@@ -186,12 +186,16 @@ L.tileLayer(
             numCol = data22juin[i];
         }
 
+    if(numCol >= 1){
       circle = new L.circle([locations[i][2],locations[i][3]],{
         color: debordement[numCol],
         fillColor: debordement[numCol],
         fillOpacity: 1,
         radius: 500
-      }).addTo(map);
+      })
+      circle.bindPopup(locations[i][1]);
+      circle.addTo(map);
+    }
     }
    
    
@@ -204,7 +208,7 @@ legend.onAdd = function (map) {
         labels = [];
 
     // loop through our density intervals and generate a label with a colored square for each interval
-    div.innerHTML += '<a style="font-size:1.3em; text-position:center;">22 June 2018</a><br><a style="font-size:1em;">Overflow Expected</a><br>' ;
+    div.innerHTML += '<a style="font-size:1.3em; text-position:center;"></a><br><a style="font-size:1em;">Overflow Expected</a><br>' ;
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i style="background:' + debordement[i] + '"></i> ' +
